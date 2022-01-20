@@ -1,3 +1,22 @@
+body{
+    background-color: black;
+    font-family: Arial, sans-serif;
+}
+
 .contenedor{
-    border: 5px solid #b8860b;
+
+        border: 5px solid #359011;
+        background-color: whitesmoke;
+        display:grid;
+        grid-template-rows: 150px 150px 150px;
+        grid-auto-columns: 150px;
+        grid-auto-flow: column;
+        gap: 20px;
+       background-color: azure;
+}
+
+.item{
+    background-color: rgba(255, 253, 253, 0.315);
+    font-size: 4rem;
+    border: 5px solid #00bcd4;
 }
